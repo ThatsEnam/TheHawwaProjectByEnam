@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/myhome"
+        android:icon="@drawable/home"
+        android:title="Home" />
+    <item
+        android:id="@+id/bookmark"
+        android:icon="@drawable/history"
+        android:title="Bookmarks" />
+    <item
+        android:id="@+id/about"
+        android:icon="@drawable/about"
+        android:title="About App" />
+    <item
+        android:id="@+id/developer"
+        android:icon="@drawable/developer_icon"
+        android:title="About Developer" />
+    <item
+        android:id="@+id/copyright_policy"
+        android:title="Copyright Infringement"
+        android:icon="@drawable/copyright_icon" />
+</menu>

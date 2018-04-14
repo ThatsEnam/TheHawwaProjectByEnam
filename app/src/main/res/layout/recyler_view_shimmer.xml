@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="4dp"
+    android:layout_marginBottom="2dp"
+    android:layout_marginStart="4dp"
+    android:orientation="vertical"
+   android:background="@drawable/placeholder">
+
+    <View
+        android:id="@+id/posterImageView"
+        android:layout_width="120dp"
+        android:layout_height="180dp"
+        android:maxHeight="175dp"
+        android:layout_margin="0dp"
+        android:padding="0dp"
+        android:scaleType="fitXY"
+        android:contentDescription="@string/movie_thumnail" />
+
+    <View
+        android:id="@+id/titleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:textAlignment="center"
+        android:background="#de244a84"
+        android:textSize="12sp"
+        android:padding="2dp"
+
+        />
+
+</LinearLayout>

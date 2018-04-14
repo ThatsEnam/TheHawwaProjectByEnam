@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sectionWrapper"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="6dp"
+    android:elevation="5dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/sectionTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#24f4eaea"
+        android:padding="5dp"
+        android:text="Category Name"
+        android:textColor="@color/white" />
+
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:id="@+id/shimmerView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <include layout="@layout/recyler_view_shimmer" />
+
+            <include layout="@layout/recyler_view_shimmer" />
+
+            <include layout="@layout/recyler_view_shimmer" />
+
+            <include layout="@layout/recyler_view_shimmer" />
+
+            <include layout="@layout/recyler_view_shimmer" />
+        </LinearLayout>
+
+
+    </com.facebook.shimmer.ShimmerFrameLayout>
+
+
+    <LinearLayout
+        android:id="@+id/genrePlaceHolder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/circle_background" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/circle_background" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/circle_background" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/circle_background" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/circle_background" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/circle_background" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/circle_background" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/circle_background" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/circle_background" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/circle_background" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/circle_background" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/circle_background" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+
+        android:id="@+id/singleSectionRecylerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

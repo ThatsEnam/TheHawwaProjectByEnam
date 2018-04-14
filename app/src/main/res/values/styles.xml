@@ -1,0 +1,34 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="drawerArrowStyle">@style/arrowStyle</item>
+        <item name="android:textColorSecondary">@color/white</item>
+        <item name="android:windowBackground">@color/black</item>
+
+
+    </style>
+
+    <style name="arrowStyle" parent="@style/Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">@color/white</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:textColorSecondary">@color/white</item>
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="@android:style/TextAppearance.Small">
+        <item name="colorControlNormal">@color/white</item>
+
+
+    </style>
+
+
+</resources>
